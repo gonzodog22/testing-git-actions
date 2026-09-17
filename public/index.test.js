@@ -1,6 +1,6 @@
 describe('Static HTML Structure', () => {
     beforeEach(() => {
-        document.body.innnerHTML= 
+        document.body.innerHTML= 
             <header>
                 <h1 id="site-title">Welcome</h1>
             </header>
