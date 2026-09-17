@@ -8,7 +8,7 @@ describe('Static HTML Structure', () => {
     })  
 
     test('contains the correct main headding', () => {
-        const heading = document.getElementById('sit-title');
+        const heading = document.getElementById('site-title');
         expect(heading).not.toBeNull();
         expect(heading.textContent).toBe('Welcome');
     })
